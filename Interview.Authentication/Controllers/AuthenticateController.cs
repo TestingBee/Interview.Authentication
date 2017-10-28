@@ -9,7 +9,7 @@ using System.Web.Http.Results;
 
 namespace Interview.Authentication.Controllers
 {
-    [EnableCors(origins: "http://interview-1.apphb.com", headers: "*", methods: "*")]
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AuthenticateController : ApiController
     {
 
