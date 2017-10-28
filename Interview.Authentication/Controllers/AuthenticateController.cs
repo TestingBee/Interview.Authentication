@@ -16,7 +16,7 @@ namespace Interview.Authentication.Controllers
         {
             if (username == "cnu@gmail.com" && password == "cnu")
             {
-                return Json(new AuthResponse {Status = "SUCESS"});
+                return Json(new AuthResponse {Status = "SUCCESS"});
             }
             return Json(new AuthResponse { Status = "FAIL" });
         }
